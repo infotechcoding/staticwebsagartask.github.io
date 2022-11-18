@@ -1,0 +1,94 @@
+li.nav-item.contact-p {
+    padding-left: 12px;
+}
+/* WEB DESIGNING SECTION CSS START */
+section.section-web-design .title-web-design {
+    text-align: center;
+    margin-bottom: 40px;
+}
+section.section-web-design {
+    padding: 50px 0px;
+    background: #ecf8fd;
+}
+.title-web-design h2.title-tg-web {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.title-web-design p.small-tg-web {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 479px 0px 479px;
+    line-height: 30px;
+}
+img.web-desgin-img.w-100 {
+    transition: 0.8s;
+}
+img.web-desgin-img.w-100:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: 0.8 s;
+}
+.web-design-img-div {
+    overflow: hidden;
+}
+p.content-web-p {
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 1.2rem !important;
+}
+p.content-web-p.secon-p-mt-0 {
+    margin-top: 0px !important;
+}
+.content-web-design-main ul {
+    margin-left: -28px;
+    padding-top: 0.9rem;
+}
+h2.heading-conten {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.content-web-design-main li {
+    list-style-type: none;
+    padding: 3px 0px;
+}
+i.fa-solid.fa-circle {
+    font-size: 9px;
+    color: #ff7d1e;
+    margin-left: -11px;
+}
+section.second-section-web-design {
+    padding: 50px 0px;
+}
+/* WEB DESIGNING SECTION CSS CLOSE */
+/* MIDEA QUERY MOBILE VIEW//
+            START//       
+        SECOND SECTION//
+*/
+@media only screen and (max-width:767px ) {
+    /* WEB DESIGNING SECTION CSS START  */
+    .title-web-design p.small-tg-web {
+        padding: 0px;
+    }
+    p.content-web-p {
+        text-align: left;
+    }
+    h2.heading-conten {
+        font-size: 24px;
+        margin-top: 30px;
+        padding: 0px 0px 10px 0px;
+    }
+    .content-web-design-main ul {
+        margin-left: -29px;
+    }
+    /* WEB DESIGNING SECTION CSS CLOSE */
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+      /* WEB DESIGNING SECTION CSS START */
+    .title-web-design p.small-tg-web {
+        padding: 0px 135px;
+    }
+    /* WEB DESIGNING SECTION CSS CLOSE */
+}

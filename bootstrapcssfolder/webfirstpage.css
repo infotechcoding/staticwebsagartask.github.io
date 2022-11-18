@@ -1,0 +1,964 @@
+
+body {
+    font-family: Montserrat, sans-serif !important;
+    line-height: 1.8 !important;
+    overflow-x: hidden;;
+}
+p {
+    margin: 0px !important;
+    line-height: 1.8 !important;
+}
+/* TOP  NAV BAR */
+header.top-headar .nav-bartop .col-md-6.mt-3 {
+    margin: 0px !important;
+}
+.container {
+    max-width: 1300px !important;
+}
+header.top-headar.sticky-top {
+    width: 100%;
+    padding: 0px!important;
+    margin-right: 0px !important;
+}
+.nav-bartop {
+    background-color: rgb(0,0,0);
+    color: white;
+    padding: 5px 0px;
+    height: 49.5px;
+}
+.top-headar,.nav-conten-p {
+    font-family:Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    justify-content: flex-start;
+}
+.top-headar, .herder-email-no {
+    line-height: 29px;
+    position: relative;
+    justify-content: end;
+    top: 10px;
+}
+a.nav-top-a {
+    margin-left: 6px;
+}
+a.nav-top-a:hover {
+    color: white;
+    text-decoration: none;
+}
+i.fa-regular.fa-envelope {
+    font-size: 17px;
+    margin: 0px 1px -2px 14px;
+}
+.herder-email-no.align-items-center.text-right.d-flex i.fa-solid.fa-phone {
+    font-size: 14px;
+    margin-left: 8px;
+    position: relative;
+    margin-top: 2px;
+    left: -3px;
+}
+a.nav-top-a {
+    margin-left: 6px;
+    color: white;
+}
+i.fa-solid.fa-signal {
+    font-size: 16.9px;
+    margin-right: 12px;
+    margin-top: 3px;
+}
+p.nav-conten-p.d-flex.align-items-center {
+    font-size: 16px;
+    justify-content: center;
+}
+img.nav-logo {
+    width: 280px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0px !important;
+    padding-left: .5rem;
+}
+nav.sticky {
+    background-color: #fff!important;
+    box-shadow: 0px 2px 6px 0px rgb(0 3 24 / 58%);
+    padding: 23px !important; 
+}
+li.nav-item.pr-4 {
+    padding: 0px 15px 0px 15px !important;
+}
+li.nav-item.contact-p {
+    padding-left: 12px;
+}
+nav {
+    padding: 22.9px !important;
+}
+.font {
+    font-weight: 600 !important;
+    padding: 0px 0px 0px 0px !important;
+    color: #000 !important;
+    letter-spacing: 0.5px !important;
+    font-size: 16px !important;
+}
+.home {
+    color: #ff7d1e !important;
+    font-weight: 600;
+}
+.navbar-nav .home:hover {
+    color: #ff7d1e !importantṁ;
+}
+.navbar-nav .font:hover {
+    color:#ff7d1e !important;
+}
+/* TOP-HEADER / NAVBAR /CSS CLOSE */
+
+/*... CAROUSEL WEB START.. */
+.carousel-img-div1 {
+    background: url(../webiamges/webimg.png02.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+}
+.carousel-img-div2 {
+    background: url(../webiamges/webimg.png03.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+}
+.carousel-img-div3 {
+    background: url(../webiamges/webimg.png04.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    /* background-position: right; */
+    width: 100%;
+    background-position: top;
+}
+.carousel {
+    position: relative;
+}
+i.fa-sharp.fa-solid.fa-circle-chevron-left {
+    color: white;
+    background-color: #ff7e20;
+    font-size: 40px;
+    border-radius: 35px;
+}
+i.fa-solid.fa-chevron-left {
+    background: #ff7d1e;
+    font-size: 21px;
+    opacity: 1;
+    border-radius: 20px;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+    padding: 9px;
+}
+span.carousel-control-prev-icon {
+    display: none;
+}
+span.carousel-control-next-icon {
+    display: none;
+}
+i.fa-solid.fa-angle-right {
+    background: #ff7d1e;
+    font-size: 22px;
+    opacity: 1;
+    border-radius: 20px;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+    padding: 9px;
+}
+a.carousel-control-prev {
+    opacity: 1 !important;
+}
+a.carousel-control-next {
+    opacity: 1 !important;
+}
+.carousel-caption.text-dark.carousel-box {
+    text-align: left;
+    position: absolute;
+    top: 89px;
+    width: 35%;
+}
+h6.carsole-small-heading {
+    color: #343a40;
+    font-family: Montserrat, sans-serif;
+    margin: 0px 0px 8px 0px;
+    font-weight: 500;
+}
+h2.carousel-heading {
+    font-size: 25px;
+    font-weight: 600;
+    color: #000000;
+}
+p.carousel-content {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+    position: relative;
+    line-height: 29px;
+}
+p.carousel-btn {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+a.btn22 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 19px;
+    background: #ff7d1e;
+    padding: 15px;
+    position: relative;
+    /* right: 12px; */
+    border-radius: 5px;
+    top: 30px;
+}
+a.btn22:hover {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+/* ... CAROUSEL WEB CLOSE//.... */
+
+/* ...OWL CAROUSEL START... */
+.item {
+    height: 7rem;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: #fff;
+    padding: 24px;
+    border: 1px solid#f7f7f7;
+}
+h3.owl-heading {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #212529;
+}
+.owl-carousel-heading-section {
+    padding: 30px 0px;
+    text-align: center;
+}
+section, #owl-carousel-first {
+    padding-bottom: 30px;
+}
+/* ...OWL CAROUSEL CLOSE//.... */
+/* ...OUR SERVISE SECATION CSS START... */
+section.ourservise-secation {
+    background-color: rgb(168 220 243 / 8%);
+    padding: 30px 0px;
+}
+.thisflex {
+    display: flex;
+}
+i.fa-solid.fa-globe {
+    font-size: 28px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 51px;
+    padding: 11px 11px;
+    margin-right: 20px;
+}
+i.fa-solid.fa-globe:hover {
+    background: #ff7d1e;
+}
+h2.heading-Designing {
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+}
+a.Web.Designing:hover {
+    color: #ff7d1e;
+    text-decoration: none;
+}
+h2.heading-Designing:hover {
+    color: #ff7d1e;
+    text-decoration: none;
+}
+p.contanten-designing {
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    margin: 12px 0px;
+    line-height: 29px;
+}
+a.ourservise-icon-with-a {
+    color: #ff7d1e;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+}
+i.fa-solid.fa-right-long {
+    font-size: 18px;
+    font-weight: 900;
+    padding: 5px;
+    /* margin-right: -26px; */
+    font-family: 'Font Awesome 6 Free';
+}
+a.ourservise-icon-with-a:hover {
+    color: #ff7d1e;
+    text-decoration: none;
+}
+p.ourservise-samall-heading {
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 40px;
+}
+h2.ourserivse-heading {
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 600;
+    padding: 10px;
+}
+i.fa-solid.fa-cart-shopping {
+    font-size: 23px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 51px;
+    padding: 14px 11px;
+    margin-right: 22px;
+    height: 48px;
+    width: 48px;
+}
+i.fa-solid.fa-cart-shopping:hover {
+    background-color:#ff7d1e ;
+}
+i.fa-solid.fa-laptop {
+    font-size: 22px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 50px;
+    padding: 13px 11px;
+    margin-right: 17px;
+    height: 50px;
+    width: 50px;
+}
+i.fa-solid.fa-laptop:hover {
+    background-color: #ff7d1e;
+}
+i.fa-solid.fa-magnifying-glass {
+    font-size: 22px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 51px;
+    padding: 13px 13px;
+    margin-right: 20px;
+    height: 48px;
+    width: 48px;
+}
+i.fa-solid.fa-magnifying-glass:hover {
+    background-color: #ff7d1e;
+}
+i.fa-solid.fa-tablet-screen-button {
+    font-size: 22px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 51px;
+    padding: 13px 14px;
+    margin-right: 16px;
+    height: 48px;
+    width: 47px;
+}
+i.fa-solid.fa-tablet-screen-button:hover {
+    background-color: #ff7d1e;
+}
+i.fa-solid.fa-pen-to-square {
+    font-size: 23px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 25px;
+    padding: 12px 13px;
+    margin-right: 20px;
+    height: 48px;
+    width: 48px;
+}
+i.fa-solid.fa-pen-to-square:hover {
+    background-color: #ff7d1e;
+}
+    /* ...OUR SERVISE SECATION CSS CLOSE... */
+    /*  */
+    .work-heading {
+    margin-top: 40px;
+}
+.heading {
+    text-align: center;
+    margin: 0 auto;
+}
+h2.our-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+.port-img-1 {
+    box-shadow: 2px 1px 5px #7e6e6e91;
+    border: 4px solid#f5efeb54;
+    /* position: relative; */
+    overflow: hidden;
+}
+.imgbtn-modal {
+    transition: 0.8s;
+    max-width: 100%;
+}
+.imgbtn-modal:hover {
+    transform: scale(1.5);
+    overflow: hidden;
+}
+p.dumyy {
+    font-size: 18px;
+    font-weight: 500;
+    /* display: none; */
+    color: white;
+}
+.view-more-btn-div {
+    margin: 40px 0px 0px 0px;
+    text-align: center;
+}
+a.view-more-btn {
+    padding: 10px 28px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 500;
+    background: #ff7d1e;
+    /* padding: 30px; */
+    color: #fff;
+    font-family: Montserrat, sans-serif !important;
+    margin: 30px 0px;
+}
+a.view-more-btn:hover {
+    background: #000;
+    color: white;
+    text-decoration: none;
+}
+/*// ......OUR SERVISE SECATION CSS CLOSE//.... */
+
+/* .... TABS SECATION CSS START..... */
+section.tab-secation {
+    margin-top: 35px;
+    padding-bottom: 20px;
+}
+.tabs-serivse .nav-link {
+    border: 1px solid #ccc!important;
+}
+.tabs-serivse .nav-link.active {
+    background-color: #ff7d1e!important;
+    color: #fff!important;
+}
+.nav-tabs .nav-link {
+    border-radius: 0px!important;
+}
+.tabs-serivse .nav-tabs {
+    border-bottom: 0px solid #dee2e6;
+    justify-content: center;
+}
+.tabs-serivse  .nav-tabs a.nav-link.tabs-show {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 13px 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 195, 195);
+    border-image: initial;
+    border-radius: 0px;
+    color:#000;
+}
+.second-content-service {
+    margin: 11px 0px;
+}
+h2.tabs-title {
+    margin-top: 60px;
+    margin-left: 0px !important;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.main-content-services p {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+a.nav-link.tabs-show.text-uppercase:hover {
+    color: white;
+}
+.tabs-serivse  li.nav-item:hover {
+    background: #ff7d1e!important;
+}
+/* /..... TABS SECATION CSS CLOSE//...... */
+
+/* OUR TECHNOLOGIES SERVISE SECTION CSSS START */
+section, #owl-carousel-first {
+    padding-bottom: 40px;
+}
+.main-technogies-title h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+.servise-icon-main i {
+    font-size: 32px;
+    font-family: Font Awesome 6 'Font Awesome 6 Brands' !important;
+    font-family: "Font Awesome 6 Brands";
+    color: #212529;
+}
+.servise-icon-main p {
+    margin: 0px !important;
+    color: #212529;
+    line-height: 29px;
+}
+section.main-our-technologies-fi-section {
+    margin-top: 14px;
+}
+/* OUR TECHNOLOGIES SERVISE SECTION CSS CLOSE */
+/* ....CONTTACT US SECTION CSS START...*/
+section.conatact-us-main {
+    background: #f7f7f7;
+    padding: 100px 0px;
+}
+section.conatact-us-main .contact-title {
+    margin-bottom: 30px;
+}
+.contact-title h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #212529;
+}
+.contact-title p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 29px;
+    color: #000000;
+    margin: -7px 0px 16px 0px !important;
+}
+.main-element-conttect-div {
+    text-align: center;
+}
+section.conatact-us-main {
+    background: #f7f7f7;
+    padding: 100px 0px;
+}
+i.fa-solid.fa-location-dot {
+    padding: 8px 10px;
+    font-size: 20px;
+    margin-right: 9px;
+    color: white;
+    background-color: #ff7d1e;
+    border-radius: 20px;
+}
+.contect-infromation i.fa-solid.fa-phone {
+    font-size: 18px;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-right: 9px;
+    color: white;
+    background-color: #ff7d1e;
+    border-radius: 20px;
+}
+.contect-infromation i.fa-regular.fa-envelope {
+    font-size: 18px;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin: 0px 9px 0px 0px !important;
+    color: white;
+    background-color: #ff7d1e;
+    border-radius: 20px;
+}
+.contect-infromation span {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.contect-infromation a.contect-number:hover {
+    text-decoration: none;
+}
+.contect-infromation a.contect-email:hover {
+ text-decoration: none;
+}
+.contect-infromation a.contect-email span:hover {
+         color: #ff7d1e;
+   }
+.contect-infromation a.contect-number span:hover {
+    color: #ff7d1e;
+}
+/* //...CONTTACT US SECTION CSS CLOSE//... */
+
+/* FOOTER CSS and /COPYRIGHT/ START */
+footer.page-footer {
+    background: #000;
+    color: #ffffff;
+    padding: 30px 0px 15px 0px;
+}
+.page-footer, p.footer-content {
+    padding: 0px 82px 0px 0px;
+    font-size: 16px;
+    /* letter-spacing: 0.5px; */
+    line-height: 31px;
+    margin: 0px 16px 0px 0px;
+    font-weight: 300;
+}
+.page-footer, h5.footer-heading {
+    font-size: 16px;
+    line-height: 29px;
+    margin: 0px 0px  0px;
+    font-weight: 600;
+}
+.page-footer, .footer-copyright {
+    margin-top: 0px;
+    border-top: 1px solid #f7f7f724;
+}
+p.copyright-content {
+    padding-top: 15px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.footer-links, a.footer-link-a:hover {
+    color: #ff7e20;
+    text-decoration: none;
+}
+.footer-links, a.footer-link-a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-links-2, a.footer-link-a2:hover {
+    color: #ff7d1e;
+    text-decoration: none;
+}
+.footer-links-2, a.footer-link-a2 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+/*...FOTTER CSS CLOSE//......... */
+/* ...MOBILE MIDEA QUERY FOR MOBILE
+                    START
+..... */
+@media only screen and (max-width:767px ) {
+    /*  TOP NAV BAR CSS START   */
+    .nav-bartop {
+        display: none;
+    }
+     /* //...TOP NAV BAR CSS START//....   */
+
+     /*  MAIN NAV BAR CSS START   */
+    img.nav-logo {
+        width: 240px;
+        max-width: 100%;
+    }
+    li.nav-item.pr-4 {
+        padding: 7px 0px !important;
+        margin: 0px !important;
+    }
+    li.nav-item.contact-p {
+        padding: 7px 0px !important;
+    }
+    i.fa.fa-align-right {
+        font-size: 25px;
+    }
+    ul.navbar-nav.nav.ml-auto {
+        text-align: left;
+    }
+    navbar-nav, .font {
+        font-weight: 600;
+    }
+    .carousel-img-div1 {
+        background-image: linear-gradient(#0000007a, #00000063), url(../webiamges/webimg.png07.jpg);
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    h6.carsole-small-heading {
+        color: #fff;
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+        line-height: 3px;
+    }
+    h2.carousel-heading {
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    p.carousel-content {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 29px;
+        color: #ffffff;
+    }
+    a.btn22 {
+        font-size: 12px;
+        font-weight: 600;
+        color: #fff;
+        position: relative;
+        top: 30px;
+    }
+    .carousel-caption.text-dark.carousel-box {
+        top: 50px;
+        color: #fff !important;
+        width: 70%;
+        text-align: center;
+    }
+    i.fa-solid.fa-angle-right {
+        font-size: 24px;
+        padding: 0px;
+        width: 40px;
+        height: 38px;
+        padding: 7px;
+    }
+    i.fa-solid.fa-chevron-left {
+        font-size: 22px;
+        padding: 0px;
+        width: 40px;
+        height: 38px;
+        padding: 8px;
+    }
+    .carousel-img-div2 {
+        background-image: linear-gradient(#0000007a, #00000063), url(../webiamges/webimg.png08.jpg);
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .carousel-img-div3 {
+        background-image: linear-gradient(#0000007a, #00000063), url(../webiamges/webimg.png09.jpg);
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    /* OUR SERVISE SECTION CSS START */
+    h2.ourserivse-heading {
+        font-size: 24px;
+    }
+    i.fa-solid.fa-globe {
+        margin-right: 30px;
+    }
+    i.fa-solid.fa-cart-shopping, i.fa-solid.fa-laptop, i.fa-solid.fa-tablet-screen-button {
+        margin-right: 20px;
+    }
+    i.fa-solid.fa-magnifying-glass {
+        margin-right: 18px;
+    }
+    i.fa-solid.fa-pen-to-square {
+        font-size: 22px;
+        margin-right: 18px;
+    }
+    .thisflex .icon-list-icon, .contantet.ourservice-div {
+        margin: 15px 0px;
+    }
+    .thisflex.mt-4 {
+        margin-top: 0px !important;
+    }
+    /* //...OUR SERVISE SECTION CSS CLOSE//....  */
+    /* OUR WORK SECTION CSS START */
+    .port-img-1 {
+        margin: 15px 0px;
+    }
+    .view-more-btn-div {
+        text-align: center;
+    }
+    /* OUR SECTION CSS CLOSE */
+    /* TABS SECTION CSS START */
+    .tabs-serivse .nav-tabs .nav-link {
+        width: 280px;
+        text-align: center;
+    }
+    section.tab-secation {
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+    .tabs-serivse .nav-tabs .nav-item {
+        margin: 10px 0px;
+    }
+    img.tabs-content-img {
+        width: 100%;
+    }
+    h2.tabs-title {
+        font-size: 24px;
+    }
+    /* TABS SECTION CSS CLOSE */
+    /* OUR TECHNOLOGIES SERVISE SECTION START */
+    .servise-icon-main p {
+        padding: 10px 0px 10px 0px;
+    }
+    /* //..OUR TECHNOLOGIES SERVISE SECTION START//... */
+    /* CONTECT US SECTION CSS START  */
+    .main-element-conttect-div {
+        text-align: left !important;
+    }
+    .contect-infromation {
+        margin: 0px 13px 12px 0px;
+    }
+    section.conatact-us-main {
+        background: #f7f7f7;
+        padding: 50px 0px;
+    }
+    .contect-infromation span {
+        line-height: 35px;
+    }
+    /* CONTECT US SECTION CSSS CLOSE */
+    /* FOOTER CSS START */
+    .page-footer .text-md-left .row {
+        text-align: left;
+    }
+    .page-footer, p.footer-content {
+        padding: 0px;
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 29px;
+        margin-bottom: -15px !important;
+        text-align: justify;
+        font-weight: 300;
+    }
+    .footer-links, a.footer-link-a {
+        font-size: 14px;
+    }
+    .footer-links-2, a.footer-link-a2 {
+        font-size: 14px;
+    }
+    .page-footer hr.clearfix.w-100.d-md-none.pb-3 {
+        margin: 11px;
+    }
+    .page-footer .col-md-3.mb-md-0.mb-3 {
+        margin: 2px 0px !important;
+    }
+    .footer-copyright.text-center.py-3.col-md-12 {
+        margin-top: 5px;
+    }
+    p.copyright-content {
+        padding-top: 15px;
+        margin-bottom: 0px;
+        font-weight: 500 !important;
+        font-size: 14px;
+    }
+    /* FOOTER CSS CLOSE */
+}
+  /* Media Query for Tablets Ipads portrait mode */
+  @media only screen and (min-width: 768px) and (max-width: 1024px){
+  /* TOP  NAV BAR */
+    a.nav-top-a {
+    font-size: 10px;
+    }
+    img.nav-logo {
+        width: 160px;
+        max-width: 100%;
+    }
+    navbar-nav, .font {
+        letter-spacing: 0.5px;
+        font-weight: 500 !important;
+        font-size: 11px !important;
+    }
+    li.nav-item.pr-4 {
+        padding: 0px 6px !important;
+    }
+    p.nav-conten-p.d-flex.align-items-center {
+        font-size: 10px;
+    }
+    li.nav-item.contact-p {
+        padding-left: 6px !important;
+    }
+    .herder-email-no.align-items-center.text-right.d-flex i.fa-regular.fa-envelope {
+        font-size: 17px;
+    }
+    .top-headar, .herder-email-no {
+        right: 30px;
+    }
+  /* TOP-HEADER / NAVBAR /CSS CLOSE */
+  CARSOEL WEB SECTION CSS START  */
+    a.btn22 {
+        font-size: 16px;
+        font-weight: 600;
+        padding: 16px;
+        right: 0px;
+        top: 30px;
+    }
+    h2.carousel-heading {
+        font-size: 25px;
+    }
+    p.carousel-content {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.1px;
+    }
+    h6.carsole-small-heading {
+        font-size: 16px;
+    }
+    .carousel-caption.text-dark.carousel-box {
+        text-align:left;
+        position: absolute;
+        top: 89px;
+        width: 50%;
+        left: 126px;
+    }
+    i.fa-solid.fa-angle-right {
+        font-size: 24px;
+        padding: 0px;
+        width: 40px;
+        height: 40px;
+        padding: 7px;
+    }
+    i.fa-solid.fa-chevron-left {
+        font-size: 22px;
+        padding: 0px;
+        width: 40px;
+        height: 40px;
+        padding: 8px;
+    }
+  /*CARSOEL WEB SECTION CSS CLOSE
+  /* TAB SECTION CSS START */
+  section.tab-secation .nav-item {
+    width: 273px;
+    text-align: center;
+    }
+    img.tabs-content-img {
+        width: 350px;
+    }
+    .servise-icon-main p {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .servise-icon-main i {
+        font-size: 25px;
+    }
+  /* TAB SECTION CSS CLOSE */
+  /*  */
+    .contect-infromation span {
+        font-size: 16px;
+    }
+    /*  */
+    /* FOOTER SECTION CSS START */
+    .page-footer, p.footer-content {
+        padding: 0px 0px 0px 0px;
+        font-size: 13px;
+        /* letter-spacing: 0.5px; */
+        font-weight: 400;
+    }
+    .footer-links, a.footer-link-a {
+        font-size: 13px;
+    }
+    .footer-links-2, a.footer-link-a2 {
+        font-size: 14px;
+    }
+    .page-footer, h5.footer-heading {
+        font-size: 15px;
+        font-weight: 500;
+    }
+}

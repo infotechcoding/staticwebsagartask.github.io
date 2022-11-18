@@ -1,0 +1,459 @@
+li.nav-item.contact-p {
+    padding-left: 12px;
+}
+/* CONTECT US FORM SETCTON START */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i');
+#check {
+display:none;
+}
+.main-img-div-contect-section {
+    margin: 0px auto;
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    margin-bottom: 10px;
+}
+label {
+    color: #333;
+}
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+input#form_email {
+    width: 310px;
+}
+input#form_phone {
+    width: 310px;
+}
+textarea.form-control {
+    width: 310px;
+}
+div#flex-main {
+    justify-content: space-between;
+    display: grid;
+    grid-template-rows: 30px 100px auto;
+    grid-template-columns: 335px auto;
+    left: -10px;
+    position: relative;
+}
+input#form_name {
+    width: 310px;
+}
+input#form_lastname {
+    width: 310px;
+}
+select#input-select {
+    padding: 0.375rem 0.75rem;
+}
+.form-main-section {
+    background-color: #ecedf3;
+    padding-bottom: 80px;
+}
+.col-md-8.col-md-offset-2 {
+    background: white;
+    margin: 0px auto;
+    width: 59%;
+    position: relative;
+    box-shadow: 0px 5px 9px -3px #a4a4a4;
+    right: 0px  20px;
+    padding: 40px 40px;
+}
+.form-heading {
+    position: relative;
+    right: -14px;
+}
+div.lead {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #2C3345;
+    position: relative;
+    right: -14px;
+}
+form#contact-form {
+    position: relative;
+    right: -13px;
+}
+h1.form-heading {
+    font-size: 34px;
+    font-family: system-ui;
+    font-weight: 600;
+}
+hr {
+    margin-top: 2.5rem !important;
+    margin-bottom: 1rem !important;
+    border: 0;
+    border-top: 1px solid rgb(132 132 132) !important;
+    width: 750px !important;
+    right: 40px !important;
+    position: relative;
+}
+label.toplable {
+    font-size: 17px;
+    font-weight: 500;
+    color: #2C3344;
+    font-family: Inter, sans-serif;
+}
+span.star-span {
+    color: #f23a3c;
+    font-size: 21px;
+    position: relative;
+    right: -4px;
+    top: 4px;
+}
+select#input-select {
+    color: #9ea2ae !important;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+input#form_lastname {
+    margin-top: 6.4px;
+}
+textarea.form-control:hover {
+    border-color: rgba(46,105,255,.5);
+    box-shadow: 0 0 0 2px rgb(46 105 255 / 25%);
+}
+ #input-select:hover{
+    border-color: rgba(46,105,255,.5);
+    box-shadow: 0 0 0 2px rgb(46 105 255 / 25%);
+}
+input:hover{
+    border-color: rgba(46,105,255,.5);
+    box-shadow: 0 0 0 2px rgb(46 105 255 / 25%);
+}
+input::placeholder {
+    color: #9ea2ae !important;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+input.btn.btn-success.btn-sent:hover {
+    background: #16aa52;
+    border: navajowhite;
+    box-shadow: none;
+}
+input.btn.btn-success.btn-sent {
+    background-color: #18bd5b;
+    border-color: #18bd5b;
+    color: #fff;
+    min-width: 180px;
+    font-size: 16px;
+    height: 50px;
+    font-weight: 600;
+}
+hr.last-hr {
+    margin: 2px;
+    position: relative;
+    top: -45px;
+    max-width: 725px;
+    right: 66px;
+}
+.col-md-12.text-center {
+    margin: -30px 0px 0px 0px;
+}
+/* CONTECT US FORM SETCTON CSS CLOSE//.... */
+/* QUERY FORM VALIDATION  ADJUSTMENT WITH CSS START */
+.help-block.with-errors {
+    font-size: .75em;
+    margin-top: 11px;
+    margin-left: 2px;
+    display: block;
+    word-break: break-word;
+}
+label#form_name-error {
+    color: #fff;
+    background-color: #f23a3c;
+    background-image: url("../webiamges/error.png")  !important;
+    font-size: .75em;
+    margin-top: 8px;
+    border-radius: 4px;
+    background-size: 0.875em;
+    background-position: 0.375em;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: auto;
+    padding: 2px 4px 2px 20px;
+    position: absolute;
+    bottom: -136px;
+}
+label#form_email-error{
+    color: #fff;
+    background-color: #f23a3c;
+    background-image: url(../webiamges/error.png) !important;
+    font-size: .75em;
+    margin-top: 8px;
+    border-radius: 4px;
+    background-size: 0.875em;
+    background-position: 0.375em;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: auto;
+    padding: 2px 4px 2px 20px;
+    position: absolute;
+    bottom: 0;
+}
+label#form_lastname-error {
+    color: #fff;
+    background-color: #f23a3c;
+    background-image: url(../webiamges/error.png) !important;
+    font-size: .75em;
+    margin-top: 8px;
+    border-radius: 4px;
+    background-size: 0.875em;
+    background-position: 0.375em;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: auto;
+    padding: 2px 4px 2px 20px;
+    position: absolute;
+    bottom: -136px;
+}
+.form-group {
+    margin-bottom: 30px !important;
+}
+input.error:hover {
+    border-color: #fe8e92;
+    box-shadow: 0 0 0 2px #ffa5a5;
+}
+input.error:active {
+    border-color: #fe8e92;
+    box-shadow: 0 0 1px 3px #ffa5a5;
+}
+input.error {
+    border: 1px solid red;
+}
+input.error:focus {
+    border-color: #fe8e92;
+    box-shadow: 0 0 0 3px #ffa5a5;
+}
+/* QUERY FORM VALIDATION  ADJUSTMENT WITH CSS CLOSE//.... */
+/* - LINKS FOR OTHER WEBSITE SECTION  CSS START */
+.main-section-other-web-li {
+    padding: 0px 0.875em 0px .875em;
+    background: #0a1551;
+    color: white;
+    position: relative;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+img.jotform-logo {
+    color: white;
+    filter: invert(.9);
+    width: 178px;
+    height: 56px;
+}
+ul.second-links {
+    display: inline-flex;
+    float: inherit;
+    position: absolute;
+    list-style-type: none;
+    top: 16px;
+    right: 0.875em;
+}
+a.jot-form-btn {
+    background-color: #78bb07;
+    position: relative;
+    border-color: #78bb07;
+    top: -7px;
+    color: white;
+    margin-left: 10px;
+}
+a.btn.jot-form-btn:hover {
+    background-color: #78bb07;
+    position: relative;
+    border-color: #78bb07;
+    top: -7px;
+    color: white;
+    margin-left: 10px;
+}
+span.jotform-span {
+    color: #fff;
+    font-size: .75em;
+}
+a.jotform-a:hover{
+    text-decoration: none;
+}
+/* - LINKS FOR OTHER WEBSITE SECTION  CSS CLOSE//... */
+/* MIDEA QUERY MOBILE VIEW//
+            START//       
+        LAST PAGE//
+*/
+@media only screen and (max-width:767px ){
+    .input1, .input2{
+        width: 155px!important;
+    }
+    img.main-img-div-contect-tgc.text-center {
+        width: 100%;
+    }
+    .col-md-8.col-md-offset-2 {
+        margin: 0px;
+        width: 100%;
+        position: relative;
+        right: 0px  20px;
+        padding: 0px 19px;
+    }
+    h1.form-heading {
+        right: 2px;
+        position: relative;
+    }
+    div.lead {
+        right: 2px;
+    }
+    hr {
+        margin-top: 2.5rem !important;
+        margin-bottom: 1rem !important;
+        border: 0;
+        border-top: 1px solid rgb(132 132 132) !important;
+        width: 344px !important;
+        right: 18px !important;
+        position: relative;
+    }
+    form#contact-form {
+        position: relative;
+        right: 0px;
+        padding: 0px !important;
+    }
+    div#flex-main {
+        grid-template-rows: 30px 100px auto;
+        grid-template-columns: 160px auto;
+        position: relative;
+        left: -16px;
+    }
+    input#form_name {
+        width: 153px !important;
+    }
+    input#form_lastname {
+        width: 153px !important;
+    }
+    element.style {
+        width: 310px;
+        height: 148px;
+    }
+    hr.last-hr {
+        margin: 2px;
+        position: relative;
+        top: -45px;
+        max-width: 321px;
+        right: -48px;
+        border-color: #000 !important;
+        left: -5px;
+    }
+    textarea#form_message {
+        width: 310px !important;
+    }
+    input.btn.btn-success.btn-sent {
+        min-width: 120px;
+        height: 40px;
+    }
+    .col-md-12.text-center {
+        margin: -30px 0px 30px 0px;
+    }
+    a.jotform-a {
+        display: none;
+    }
+    a.jot-form-btn {
+        top: -4px;
+        font-size: 12px;
+        margin-left: 0px;
+    }
+    label#form_name-error {
+        color: #fff;
+        background-color: #f23a3c;
+        background-image: url("../webiamges/error.png")  !important;
+        font-size: 10px;
+        margin-top: 8px;
+        border-radius: 4px;
+        background-size: 0.875em;
+        background-position: 0.375em;
+        background-repeat: no-repeat;
+        display: inline-block;
+        width: auto;
+        padding: 2px 4px 2px 20px;
+        position: absolute;
+        bottom: -132px;
+    }   
+    label#form_email-error {
+        color: #fff;
+        background-color: #f23a3c;
+        background-image: url(../webiamges/error.png) !important;
+        font-size: 11px;
+        margin-top: 8px;
+        border-radius: 4px;
+        background-size: 0.875em;
+        background-position: 0.375em;
+        background-repeat: no-repeat;
+        display: inline-block;
+        width: auto;
+        padding: 2px 4px 2px 20px;
+        position: absolute;
+        bottom: 0;
+    }
+    label#form_lastname-error {
+        display: none !important;
+    }
+    hr.clearfix.w-100.d-md-none.pb-3 {
+        margin: 0px;
+        width: 95% !important;
+    }
+    img.main-img-div-contect-tgc.text-center {
+        padding: 0px 15px;
+    }
+}
+/* MIDEA QUERY MOBILE VIEW//
+            CLOSE//       
+        SECOND SECTION//
+*/
+/* MIDEA QUERY TABLATE SSSS VIEW//
+            CLOSE//       
+        SECOND SECTION//
+*/
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .col-md-8.col-md-offset-2 {
+        width: 100%;
+        right: 0px  20px;
+        padding: 0px 10px;
+    }
+    textarea.form-control {
+        width: 310px !important;
+    }
+    hr {
+        width: 493px !important;
+        right: 11px !important;
+    }
+    hr.last-hr {
+        max-width: 468px;
+    }
+    div#flex-main {
+        grid-template-rows: 70px 100px auto;
+        grid-template-columns: 104px auto;
+    }
+    input#form_name {
+        width: 215px;
+    }
+    input#form_lastname {
+        width: 215px;
+    }
+    label#form_name-error{
+        font-size: 11px;
+        padding: 3px 4px 3px 20px;
+        bottom: -103px;
+        width: 133%;
+    }
+    label#form_lastname-error {
+        font-size: 11px;
+        padding: 3px 4px 3px 20px;
+        bottom: -103px;
+    }
+    label#form_email-error {
+        font-size: 11px;
+        padding: 3px 4px 3px 20px;
+    }
+    .col-md-12.text-center {
+        margin: -30px 0px 30px 0px;
+    }
+}
